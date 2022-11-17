@@ -1,0 +1,22 @@
+body,
+figure {
+    margin: 0;
+    padding: 0
+}
+
+#map {
+    height: 100vh;
+    background-color: red;
+}
+
+#routeDetails {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    font-size: .8em;
+    padding: 10px;
+    overflow-y: scroll;
+}
